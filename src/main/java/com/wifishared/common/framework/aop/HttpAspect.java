@@ -23,7 +23,7 @@ public class HttpAspect {
      * 定义AOP扫描路径
      * 第一个注解只扫描aopTest方法
      */
-	@Pointcut("execution(* com.wifishared.*.controller..*(..)) and @annotation(org.springframework.web.bind.annotation.RequestMapping)")
+	@Pointcut("execution(* com.shanghai.wifishare.*.controller..*(..)) and @annotation(org.springframework.web.bind.annotation.RequestMapping)")
     public void log(){}
 
     /**
