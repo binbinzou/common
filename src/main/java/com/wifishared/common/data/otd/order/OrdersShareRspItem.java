@@ -5,7 +5,7 @@ import com.wifishared.common.data.otd.hotspot.HotSpotRspBody;
 import lombok.Data;
 
 @Data
-public class OrdersRspItem {
+public class OrdersShareRspItem {
 
 	private String id;
 	
@@ -27,14 +27,12 @@ public class OrdersRspItem {
 	
 	private String spendTime;
 	
-	private String deviceId;
-	
-	private String deviceUuid;
-	
-	private String deviceName;
+	private String userPhoneNumber;
 	
 	private String deviceSystem;
 	
 	private String systemVersion;
+	
+	private boolean commented;
 	
 }

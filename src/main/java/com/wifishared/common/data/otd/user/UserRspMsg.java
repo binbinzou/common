@@ -4,6 +4,8 @@ import lombok.Data;
 
 @Data
 public class UserRspMsg {
+	
+	private String userId;
 
 	private String nickName;
 	

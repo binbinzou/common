@@ -29,5 +29,16 @@ public class HotSpotRspBody {
 	private String lat;
 	
 	private String publicCert;
+	
+	private int deviceNum;
+	
+	private int connectNum;
+	
+	//信号强度
+	private String strengthScore;
+	//信号速度
+	private String speedScore;
+	//信号稳定度
+	private String stableScore;
 
 }
